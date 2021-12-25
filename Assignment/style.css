@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poly', serif;
+}
+
+.topnav {
+  height: 57px;
+  overflow: hidden;
+  padding: 1px ;
+  padding-left: 8%;
+  background: #000000;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+line-height: 119.5%;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.top-center a{
+  padding-left: 23%;
+  color: #FF0007;
+  font-size: 24px;
+}
+.topnav-right {
+  float: right;
+  padding-right: 6%;
+}
+.nav {
+  height: 122px;
+  overflow: hidden;
+  padding-left: 8%;
+  background: #000000;
+  color: #ffffff;
+  font-weight: 400;
+
+}
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 28px ;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 119.5%;
+}
+.nav-center{
+  float: center;
+  padding-left: 43%;
+
+}
+ .nav-center a{
+    padding : 46px 25px;
+
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #ef0007;
+    transition: width .3s;
+
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+.nav-right {
+  float: right;
+  padding-right: 6%;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn{
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 46px 25px;
+  background-color: black;
+  font-family: 'Poly', serif;
+   margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f3f4;
+  color: #7a797a;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  font-size: 50px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 23%;
+  height: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f5f3f4;
+}
+
+.column a {
+  float: none;
+  padding-top: 70px;
+  padding-left: 70px;
+  color: #7a797a;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 45px;
+}
+
+.column a:hover {
+  color: black;
+  border-bottom: 1px solid red;
+  border-width: medium;
+  text-align: center;
+  font-size: 45px;
+  width: 80%;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav-right .dropbtn1{
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 46px 25px;
+  background-color: black;
+  font-family: 'Poly', serif;
+   margin: 0;
+}
+.button2{
+  height: 50px;
+  font-family: 'Poly', serif;
+  background-color:#db1218;
+  color: white;
+  font-size: 25px;
+  line-height: 29.87px;
+  padding: 8px 20px;
+  text-align: center;
+  border-style: hidden;
+  margin-top: 35px;
+}
+.button2:hover {background-color:white;
+  color: black;
+}
+.content {
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.row{
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.leftside{
+  float: left;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: absolute;
+  width: 743px;
+  height: 743px;
+  left: -93px;
+  top: 242px;
+}
+.image2 {
+  position: absolute;
+width: 979px;
+height: 935px;
+left: 108px;
+top: 76px;
+}
+.rightside{
+ padding-top:100px;
+ padding-right: 160px;
+ padding-left: 70px;
+  width: 30%;
+  float: right;
+}
+h1{
+  width: 423px;
+height: 270px;
+left: 1177px;
+top: 405px;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 75px;
+line-height: 119.5%;
+}
+p{
+  width: 557px;
+height: 123px;
+left: 1183px;
+top: 722px;
+
+font-family: Poly;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 119.5%;
+}
+.button1{
+width: 203px;
+height: 52px;
+left: 1183px;
+top: 872px;
+  font-family: 'Poly', serif;
+  background-color:#db1218;
+  color: white;
+  font-size: 25px;
+  line-height: 29.87px;
+  padding: 8px 20px;
+  text-align: center;
+  border-style: hidden;
+}
+.button1:hover {background-color:black;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  padding-right: 6%;
+  top: 0;
+  width: 92%;
+}
+
+.sticky + .content {
+   padding-top: 102px;
+}
