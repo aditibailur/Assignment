@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="topnav" id="myHeader">
+  <a>Support : +91-9090909090</a>
+ <div class="top-center">
+   <a>Book a FREE Test Ride Now</a>
+ </div>
+ <div class="topnav-right">
+   <a href=>Contact</a>
+   <a href=>Career</a>
+   <a href=>Media <img src="https://img.icons8.com/external-those-icons-fill-those-icons/15/ef0007/external-down-arrows-those-icons-fill-those-icons-7.png"/></a>
+ </div>
+ </div>
+ <div class="nav">
+ <a><img src="image1.png"></a>
+
+ <div class="nav-center">
+   <a href="" class="cool-link" >About</a>
+   <a href="" class="cool-link" >Locate Store</a>
+
+ </div>
+ <!-- <div class="nav-right"> -->
+
+   <div class="dropdown">
+     <div id="sections_btn_holder">
+   		<button onclick="toggleNavPanel('sections_panel')" class="dropbtn">Scooters<spam id="navarrow">&#9662;</spam></button>
+     </div>
+
+   		<div id="sections_panel" class="dropdown-content">
+         <div class="row1">
+           <div class="column">
+             <a href="#">HRX350 Bike</a>
+           </div>
+           <div class="column">
+             <a href="#">GEAR350 EB</a>
+           </div>
+           <div class="column">
+             <a href="#">RX - AK290 EB</a>
+           </div>
+           <div class="column">
+             <a href="#">GBM -Heavy</a>
+           </div>
+         </div>
+       </div>
+   	</div>
+
+   <button class="dropbtn1">Purchase Assistance <i class="fa fa-caret-down"></i></button>
+   <button class="button2" style="text-decoration: none;" >Dealership</button>
+   <!-- </div> -->
+ </div>
+
+<div class="content">
+  <div class="row">
+      <div class="leftside">
+        <div class="parent">
+  <img class="image1" src="circle.gif" />
+  <img class="image2" src="image2.png" />
+</div>
+      </div>
+
+
+      <div class="rightside">
+        <h1>A neat headline comes here!</h1>
+        <p>
+          A neat sample text to come here super soon. Till then admire the authentic and delightful User Interface Design of Website.We are glad youcame here , thanks for visiting.
+        </p>
+        <button class="button1" style="text-decoration: none;" >Show Details</button>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+function toggleNavPanel(x){
+    var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH="200px";
+    if(panel.style.height == maxH){
+        panel.style.height = "0px";
+        navarrow.innerHTML = "&#9662;";
+    } else {
+        panel.style.height = maxH;
+        navarrow.innerHTML = "&#9652;";
+    }
+}
+</script>
+</body>
+</html>
